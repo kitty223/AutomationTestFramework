@@ -22,7 +22,11 @@ namespace AutomationTestFramework.Test
         public void SearchKeyword_ShouldReturnResults()
         {
             // 1. 打开百度
+  
+
+            IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://www.baidu.com");
+
 
             // 2. 定位元素并操作
             IWebElement searchBox = driver.FindElement(By.Id("kw"));
