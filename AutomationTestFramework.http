@@ -1,0 +1,6 @@
+@AutomationTestFramework_HostAddress = http://localhost:5088
+
+GET {{AutomationTestFramework_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
