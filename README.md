@@ -4,8 +4,7 @@
 
 Nuget需要安装这些包：
 Microsoft.NET.Test.Sdk<br/>
-xunit<br/>
-xunit.runner.visualstudio<br/>
+NUnit<br/>
 Selenium.WebDriver<br/>
 Selenium.Support<br/>
 Selenium.WebDriver.ChromeDriver<br/>
