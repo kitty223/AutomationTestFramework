@@ -11,7 +11,7 @@ namespace AutomationTestFramework.BLL.Baidu
     {
         private IWebDriver driver = new ChromeDriver();
         private string testUrl = "https://www.baidu.com";
-
+    
         /// <summary>
         /// 搜索关键字并验证搜索结果
         /// </summary>
